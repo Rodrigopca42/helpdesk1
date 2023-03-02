@@ -35,6 +35,8 @@ export class LoginComponent implements OnInit {
       this.router.navigate([''])
     }, ()=> {
       this.toast.error('Email e/ou Senha inválidos!', 'Login');
+      this.creds.email = '';
+      this.creds.senha = '';
     })
   }
   
