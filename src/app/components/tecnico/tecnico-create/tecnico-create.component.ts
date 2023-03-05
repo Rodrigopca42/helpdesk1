@@ -37,29 +37,29 @@ export class TecnicoCreateComponent implements OnInit {
   }
 
   
-  create(): void{
+ 
+  create(): void {
     this.service.create(this.tecnico).subscribe(() => {
-      this.toast.success('Técnico cadastrado com sucesso', 'Cadastro')
+      this.toast.success('Técnico cadastrado com sucesso', 'Cadastro');
       this.router.navigate(['tecnicos'])
     }, ex => {
-      if(ex.error.errors){
+      if(ex.error.errors) {
         ex.error.errors.forEach(element => {
           this.toast.error(element.message);
         });
-      }else {
+      } else {
         this.toast.error(ex.error.message);
       }
     })
   }
   
-  addPerfil( perfil: any ): void{
-    this.tecnico.perfis.push();
-    
-    if(this.tecnico.perfis.includes(perfil)){
-      this.tecnico.perfis.splice( this.tecnico.perfis.indexOf(perfil), 1);
-    }else{
+  addPerfil(perfil: any): void {
+    if(this.tecnico.perfis.includes(perfil)) {
+      this.tecnico.perfis.splice(this.tecnico.perfis.indexOf(perfil), 1);
+    } else {
       this.tecnico.perfis.push(perfil);
     }
+
   }
   
   validaCampos(): boolean {
