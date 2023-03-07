@@ -3,7 +3,7 @@
 
         <h1>Help Desk - Benny Tech</h1>
 
-        <mat-form-field class="full-width" appearance="fill">
+        <mat-form-field class="full-width" appearance="outline">
           <mat-label>Email</mat-label>
           <input 
           [formControl]="email"
@@ -14,7 +14,7 @@
           placeholder="exemplo@mail.com">
         </mat-form-field>
         
-        <mat-form-field class="full-width" appearance="fill">
+        <mat-form-field class="full-width" appearance="outline">
             <mat-label>Senha</mat-label>
             <input 
             [formControl]="senha"
@@ -23,7 +23,8 @@
             name="senha" 
             type="password" 
             matInput 
-            placeholder="Ex. 123">          </mat-form-field>
+            placeholder="Ex. 123">
+        </mat-form-field>
        
           <button (click)="logar()" [disabled]="!validaCampos()" class="full-width mat-elevation-z4" 
           mat-stroked-button color="primary"><strong>Entre</strong></button>
