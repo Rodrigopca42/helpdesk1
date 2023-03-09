@@ -1,12 +1,12 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "cli": {
-    "analytics": "36ca4a90-04b5-418f-9296-4eb51276ca71"
+    "analytics": "79f1c321-49a1-4d9d-849d-895038e5b8e0"
   },
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "helpdesk1": {
+    "helpdesk": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -43,7 +43,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/helpdesk1",
+            "outputPath": "dist/helpdesk",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -81,12 +81,12 @@
               "outputHashing": "all"
             },
             "development": {
-              "buildOptimizer": true,
-              "optimization": true,
-              "vendorChunk": false,
-              "extractLicenses": true,
-              "sourceMap": false,
-              "namedChunks": false
+              "buildOptimizer": false,
+              "optimization": false,
+              "vendorChunk": true,
+              "extractLicenses": false,
+              "sourceMap": true,
+              "namedChunks": true
             }
           },
           "defaultConfiguration": "production"
@@ -95,10 +95,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "helpdesk1:build:production"
+              "browserTarget": "helpdesk:build:production"
             },
             "development": {
-              "browserTarget": "helpdesk1:build:development"
+              "browserTarget": "helpdesk:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -106,11 +106,11 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "helpdesk1:build"
+            "browserTarget": "helpdesk:build"
           }
         }
       }
     }
   },
-  "defaultProject": "helpdesk1"
+  "defaultProject": "helpdesk"
 }
