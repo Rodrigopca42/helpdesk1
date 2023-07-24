@@ -1,6 +1,6 @@
 export const API_CONFIG = {
    // baseUrl : 'http://localhost:8080'
-   baseUrl: 'https://projetofullstackhelpdesk2-production.up.railway.app'
+   baseUrl: 'hd-backend-production.up.railway.app'
 
    
 }
