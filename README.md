@@ -40,16 +40,27 @@ Esse projeto foi uma propósta do curso [Formação Angular + Spring Boot](https
 - Spring Boot
 - JPA / Hibernate
 - Maven
+- Autenticação com Tokens JWT
+- Autorização com Tokens JWT
+- Criação de uma API RESTful
+- Utilização do banco de dados h2 em tempo de compilação
+- Tratamento de exceções de forma personalizada
+- Desenvolvimento em camadas usando o padrão MVC
+- Padrão DTO (Data Transfer Objects)
+- MySQL em projeto Spring Boot
+- Implementar perfis de Teste e Desenvolvimento
+- Validações com Validations
+- Protocolo HTTP no padrão REST
 ## Front end
-- HTML / CSS / JS / TypeScript
-- ReactJS
-- React Native
-- Apex Charts
-- Expo
+- Conceitos básicos de Typescript, HTML5 e CSS3
+- Conceitos de Angular 12
+- Consumir uma API REST usando a ferramenta Postman
+- Consumir uma API REST usando o front desenvolvido no curso
+ 
 ## Implantação em produção
-- Back end: Heroku
-- Front end web: Netlify
-- Banco de dados: Postgresql
+- Back end: Railway
+- Front end web: Vercel
+- Banco de dados: Teste:H2  Produção:MySQL
 
 # Como executar o projeto
 
