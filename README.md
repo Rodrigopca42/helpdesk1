@@ -60,7 +60,7 @@ Esse projeto foi uma propósta do curso [Formação Angular + Spring Boot](https
 ## Implantação em produção
 - Back end: Railway
 - Front end web: Vercel
-- Banco de dados: Teste:H2  Produção:MySQL
+- Banco de dados: Teste:H2;  Produção:MySQL
 
 # Como executar o projeto
 
@@ -69,34 +69,33 @@ Pré-requisitos: Java 11
 
 ```bash
 # clonar repositório
-git clone https://github.com/devsuperior/sds1-wmazoni
+git@github.com:Rodrigopca42/Projeto_FullStack_HelpDesk.2.git
 
 # entrar na pasta do projeto back end
-cd backend
+Projeto_FullStack_HelpDesk.2
 
 # executar o projeto
 ./mvnw spring-boot:run
 ```
 
 ## Front end web
-Pré-requisitos: npm / yarn
+Pré-requisitos: nodejs-18.17.0 LTS
+                Angular CLI v-15
 
 ```bash
 # clonar repositório
-git clone https://github.com/devsuperior/sds1-wmazoni
+git@github.com:Rodrigopca42/helpdesk1.git
 
 # entrar na pasta do projeto front end web
-cd front-web
+helpdesk1
 
 # instalar dependências
-yarn install
+npm install
 
-# executar o projeto
-yarn start
 ```
 
 # Autor
 
-Wellington Mazoni de Andrade
+Rodrigo Pereira Cardoso
 
-https://www.linkedin.com/in/wmazoni
+www.linkedin.com/in/rodrigo-cardoso-b2866b110
