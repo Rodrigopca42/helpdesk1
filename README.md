@@ -31,7 +31,8 @@ Esse projeto foi uma propósta do curso [Formação Angular + Spring Boot](https
 
 
 ## Modelo conceitual
-![Modelo Conceitual](https://github.com/acenelio/assets/raw/main/sds1/modelo-conceitual.png)
+![Modelo Conceitual](https://github.com/Rodrigopca42/assets-helpdesk/blob/main/Capturar7.PNG)
+![Modelo Conceitual](https://github.com/Rodrigopca42/assets-helpdesk/blob/main/Capturar8.PNG)
 
 # Tecnologias utilizadas
 ## Back end
