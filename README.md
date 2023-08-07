@@ -12,13 +12,23 @@ Esse é o sistema para gerenciamento de chamados simulando um simples Help Desk 
 Esse projeto foi uma propósta do curso [Formação Angular + Spring Boot](https://www.udemy.com/course/formacao-angular-spring-boot/), do professor [Valdir Cezar](https://github.com/ValdirCezar). Neste projeto aprendi a construir uma aplicação web completa, CRUD (CREATE, READ, UPDATE e DELETE) de um sistema web para uma microempresa abrir e encerrar suas ordens de serviço, ao final tendo a [certificação](https://www.udemy.com/certificate/UC-aa7f24a3-23d0-421d-a698-7cfaad95cce7/).
 
 
-## Layout mobile
-![Mobile 1](https://github.com/acenelio/assets/raw/main/sds1/mobile1.png) ![Mobile 2](https://github.com/acenelio/assets/raw/main/sds1/mobile2.png)
-
 ## Layout web
-![Web 1](https://github.com/acenelio/assets/raw/main/sds1/web1.png)
+![Web 1 height="40px" width="65px"](https://github.com/Rodrigopca42/assets-helpdesk/blob/main/Capturar.PNG)
 
-![Web 2](https://github.com/acenelio/assets/raw/main/sds1/web2.png)
+![Web 2](https://github.com/Rodrigopca42/assets-helpdesk/blob/main/Capturar1.PNG)
+
+![Web 3](https://github.com/Rodrigopca42/assets-helpdesk/blob/main/Capturar2.PNG)
+
+![Web 4](https://github.com/Rodrigopca42/assets-helpdesk/blob/main/Capturar3.PNG)
+
+![Web 5](https://github.com/Rodrigopca42/assets-helpdesk/blob/main/Capturar4.PNG)
+
+![Web 6](https://github.com/Rodrigopca42/assets-helpdesk/blob/main/Capturar5.PNG)
+
+![Web 7](https://github.com/Rodrigopca42/assets-helpdesk/blob/main/Capturar6.PNG)
+
+
+
 
 ## Modelo conceitual
 ![Modelo Conceitual](https://github.com/acenelio/assets/raw/main/sds1/modelo-conceitual.png)
